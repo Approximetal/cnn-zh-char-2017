@@ -5,3 +5,9 @@
 
 运行命令：
 CUDA_VISIBLE_DEVICES="cpu" python training.py
+
+Linux 后台：
+CUDA_VISIBLE_DEVICES="cpu" nohup python -u training.py >> output.log 2>&1 &
+ps -aux|grep training.py| grep -v grep
+netstat -nap|grep 进程号
+kill -9  进程号
