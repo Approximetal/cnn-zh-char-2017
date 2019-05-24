@@ -1,0 +1,3202 @@
+nohup: ignoring input
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcurand.so locally
+/usr/local/lib/python2.7/dist-packages/sklearn/cross_validation.py:44: DeprecationWarning: This module was deprecated in version 0.18 in favor of the model_selection module into which all the refactored classes and functions are moved. Also note that the interface of the new CV iterators are different from that of this module. This module will be removed in 0.20.
+  "This module will be removed in 0.20.", DeprecationWarning)
+start...
+1e-06
+end...
+Loading data .... Loaded
+0.8.0
+Training ===>
+E tensorflow/stream_executor/cuda/cuda_driver.cc:481] failed call to cuInit: CUDA_ERROR_NO_DEVICE
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:114] retrieving CUDA diagnostic information for host: node3
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:121] hostname: node3
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:146] libcuda reported version is: 375.66
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:257] driver version file contents: """NVRM version: NVIDIA UNIX x86_64 Kernel Module  375.66  Mon May  1 15:29:16 PDT 2017
+GCC version:  gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+"""
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:150] kernel reported version is: 375.66
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:226] kernel version seems to match DSO: 375.66
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:81] No GPU devices available on machine.
+Writing to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149855
+
+0
+
+Evaluation:
+2018-01-05T19:04:30.085167: step 100, loss 1.13361, acc 0.453125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-100
+
+
+Evaluation:
+2018-01-05T19:15:11.574349: step 200, loss 1.19471, acc 0.476562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-200
+
+
+Evaluation:
+2018-01-05T19:25:27.428168: step 300, loss 0.843912, acc 0.640625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-300
+
+
+Evaluation:
+2018-01-05T19:37:47.200893: step 400, loss 0.877231, acc 0.59375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-400
+
+
+Evaluation:
+2018-01-05T19:50:15.788846: step 500, loss 0.749348, acc 0.601562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-500
+
+
+Evaluation:
+2018-01-05T19:59:54.685396: step 600, loss 0.829823, acc 0.59375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-600
+
+
+Evaluation:
+2018-01-05T20:09:28.552381: step 700, loss 0.598063, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-700
+
+
+Evaluation:
+2018-01-05T20:15:37.031949: step 800, loss 0.550311, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-800
+
+
+Evaluation:
+2018-01-05T20:20:05.052274: step 900, loss 0.4708, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-900
+
+1
+
+Evaluation:
+2018-01-05T20:23:56.205921: step 1000, loss 0.525273, acc 0.765625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-1000
+
+
+Evaluation:
+2018-01-05T20:27:48.305332: step 1100, loss 0.597334, acc 0.757812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-1100
+
+
+Evaluation:
+2018-01-05T20:31:36.271525: step 1200, loss 0.527977, acc 0.773438
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-1200
+
+
+Evaluation:
+2018-01-05T20:35:23.995214: step 1300, loss 0.544634, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-1300
+
+
+Evaluation:
+2018-01-05T20:39:11.165898: step 1400, loss 0.461242, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-1400
+
+
+Evaluation:
+2018-01-05T20:42:56.786759: step 1500, loss 0.550648, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-1500
+
+
+Evaluation:
+2018-01-05T20:46:43.899363: step 1600, loss 0.45224, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-1600
+
+
+Evaluation:
+2018-01-05T20:50:30.387192: step 1700, loss 0.459709, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-1700
+
+
+Evaluation:
+2018-01-05T20:54:16.569054: step 1800, loss 0.590887, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-1800
+
+2
+
+Evaluation:
+2018-01-05T20:58:01.795006: step 1900, loss 0.445155, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-1900
+
+
+Evaluation:
+2018-01-05T21:01:48.472042: step 2000, loss 0.442394, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-2000
+
+
+Evaluation:
+2018-01-05T21:05:35.489650: step 2100, loss 0.460847, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-2100
+
+
+Evaluation:
+2018-01-05T21:09:22.485331: step 2200, loss 0.519663, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-2200
+
+
+Evaluation:
+2018-01-05T21:13:09.961154: step 2300, loss 0.431763, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-2300
+
+
+Evaluation:
+2018-01-05T21:16:57.094061: step 2400, loss 0.490191, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-2400
+
+
+Evaluation:
+2018-01-05T21:20:45.197909: step 2500, loss 0.368956, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-2500
+
+
+Evaluation:
+2018-01-05T21:24:31.761215: step 2600, loss 0.407834, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-2600
+
+
+Evaluation:
+2018-01-05T21:28:19.292093: step 2700, loss 0.429221, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-2700
+
+
+Evaluation:
+2018-01-05T21:32:07.156604: step 2800, loss 0.3913, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-2800
+
+3
+
+Evaluation:
+2018-01-05T21:36:00.786089: step 2900, loss 0.452452, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-2900
+
+
+Evaluation:
+2018-01-05T21:39:54.259351: step 3000, loss 0.463253, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-3000
+
+
+Evaluation:
+2018-01-05T21:44:16.752250: step 3100, loss 9389.81, acc 0.367188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-3100
+
+
+Evaluation:
+2018-01-05T21:51:42.203139: step 3200, loss 57.6355, acc 0.5625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-3200
+
+
+Evaluation:
+2018-01-05T22:04:52.574189: step 3300, loss 23.7519, acc 0.59375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-3300
+
+
+Evaluation:
+2018-01-05T22:19:02.953655: step 3400, loss 16.028, acc 0.648438
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-3400
+
+
+Evaluation:
+2018-01-05T22:34:40.136442: step 3500, loss 13.1406, acc 0.710938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-3500
+
+
+Evaluation:
+2018-01-05T22:50:58.760642: step 3600, loss 15.7271, acc 0.632812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-3600
+
+
+Evaluation:
+2018-01-05T23:06:59.648031: step 3700, loss 10.913, acc 0.695312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-3700
+
+4
+
+Evaluation:
+2018-01-05T23:22:45.814613: step 3800, loss 10.6261, acc 0.695312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-3800
+
+
+Evaluation:
+2018-01-05T23:38:36.452969: step 3900, loss 8.97939, acc 0.75
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-3900
+
+
+Evaluation:
+2018-01-05T23:54:38.329756: step 4000, loss 7.51262, acc 0.757812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-4000
+
+
+Evaluation:
+2018-01-06T00:09:55.692263: step 4100, loss 9.6855, acc 0.695312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-4100
+
+
+Evaluation:
+2018-01-06T00:24:18.511582: step 4200, loss 11.892, acc 0.671875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-4200
+
+
+Evaluation:
+2018-01-06T00:39:30.076060: step 4300, loss 5.9641, acc 0.765625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-4300
+
+
+Evaluation:
+2018-01-06T00:53:37.727106: step 4400, loss 5.40896, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-4400
+
+
+Evaluation:
+2018-01-06T01:07:38.209694: step 4500, loss 5.69704, acc 0.773438
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-4500
+
+
+Evaluation:
+2018-01-06T01:21:23.142848: step 4600, loss 5.46744, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-4600
+
+5
+
+Evaluation:
+2018-01-06T01:34:29.926734: step 4700, loss 4.77256, acc 0.75
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-4700
+
+
+Evaluation:
+2018-01-06T01:46:49.224069: step 4800, loss 7.26881, acc 0.679688
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-4800
+
+
+Evaluation:
+2018-01-06T01:59:39.881668: step 4900, loss 4.78498, acc 0.765625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-4900
+
+
+Evaluation:
+2018-01-06T02:12:00.715057: step 5000, loss 4.41881, acc 0.796875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-5000
+
+
+Evaluation:
+2018-01-06T02:23:16.483084: step 5100, loss 5.69526, acc 0.71875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-5100
+
+
+Evaluation:
+2018-01-06T02:34:13.556845: step 5200, loss 4.55213, acc 0.742188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-5200
+
+
+Evaluation:
+2018-01-06T02:44:36.256132: step 5300, loss 3.69125, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-5300
+
+
+Evaluation:
+2018-01-06T02:54:27.218052: step 5400, loss 4.31937, acc 0.765625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-5400
+
+
+Evaluation:
+2018-01-06T03:04:02.508161: step 5500, loss 3.59114, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-5500
+
+
+Evaluation:
+2018-01-06T03:13:08.619234: step 5600, loss 3.58116, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-5600
+
+6
+
+Evaluation:
+2018-01-06T03:21:30.120820: step 5700, loss 3.11344, acc 0.773438
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-5700
+
+
+Evaluation:
+2018-01-06T03:28:53.529286: step 5800, loss 3.17378, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-5800
+
+
+Evaluation:
+2018-01-06T03:36:22.327082: step 5900, loss 4.57386, acc 0.75
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-5900
+
+
+Evaluation:
+2018-01-06T03:44:25.462846: step 6000, loss 2.84091, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-6000
+
+
+Evaluation:
+2018-01-06T03:51:47.809942: step 6100, loss 2.63656, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-6100
+
+
+Evaluation:
+2018-01-06T03:59:04.091846: step 6200, loss 4.51854, acc 0.671875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-6200
+
+
+Evaluation:
+2018-01-06T04:05:55.868400: step 6300, loss 2.79373, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-6300
+
+
+Evaluation:
+2018-01-06T04:12:01.676281: step 6400, loss 2.46088, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-6400
+
+
+Evaluation:
+2018-01-06T04:17:54.331913: step 6500, loss 4.20504, acc 0.765625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-6500
+
+7
+
+Evaluation:
+2018-01-06T04:25:59.288352: step 6600, loss 2.45807, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-6600
+
+
+Evaluation:
+2018-01-06T04:34:47.298587: step 6700, loss 3.42238, acc 0.757812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-6700
+
+
+Evaluation:
+2018-01-06T04:44:27.674767: step 6800, loss 3.11, acc 0.75
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-6800
+
+
+Evaluation:
+2018-01-06T04:55:27.915488: step 6900, loss 2.84721, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-6900
+
+
+Evaluation:
+2018-01-06T05:06:51.814241: step 7000, loss 2.62741, acc 0.765625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-7000
+
+
+Evaluation:
+2018-01-06T05:18:06.632356: step 7100, loss 2.24765, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-7100
+
+
+Evaluation:
+2018-01-06T05:29:42.527772: step 7200, loss 2.27383, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-7200
+
+
+Evaluation:
+2018-01-06T05:40:17.829255: step 7300, loss 1.90305, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-7300
+
+
+Evaluation:
+2018-01-06T05:49:50.761483: step 7400, loss 1.80124, acc 0.796875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-7400
+
+
+Evaluation:
+2018-01-06T05:59:46.575417: step 7500, loss 1.82344, acc 0.796875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-7500
+
+8
+
+Evaluation:
+2018-01-06T06:09:03.902960: step 7600, loss 1.94582, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-7600
+
+
+Evaluation:
+2018-01-06T06:17:43.728377: step 7700, loss 1.49665, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-7700
+
+
+Evaluation:
+2018-01-06T06:26:36.576748: step 7800, loss 1.95871, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-7800
+
+
+Evaluation:
+2018-01-06T06:35:05.739186: step 7900, loss 1.67022, acc 0.796875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-7900
+
+
+Evaluation:
+2018-01-06T06:43:43.310524: step 8000, loss 1.3604, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-8000
+
+
+Evaluation:
+2018-01-06T06:52:06.668327: step 8100, loss 1.49638, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-8100
+
+
+Evaluation:
+2018-01-06T07:01:32.012900: step 8200, loss 1.98022, acc 0.710938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-8200
+
+
+Evaluation:
+2018-01-06T07:10:30.084042: step 8300, loss 1.6757, acc 0.765625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-8300
+
+
+Evaluation:
+2018-01-06T07:20:00.468227: step 8400, loss 1.54265, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-8400
+
+9
+
+Evaluation:
+2018-01-06T07:29:41.206495: step 8500, loss 1.40524, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-8500
+
+
+Evaluation:
+2018-01-06T07:38:40.655390: step 8600, loss 1.19936, acc 0.796875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-8600
+
+
+Evaluation:
+2018-01-06T07:47:22.092807: step 8700, loss 1.48418, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-8700
+
+
+Evaluation:
+2018-01-06T07:55:45.254097: step 8800, loss 1.67583, acc 0.765625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-8800
+
+
+Evaluation:
+2018-01-06T08:05:20.321722: step 8900, loss 1.08998, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-8900
+
+
+Evaluation:
+2018-01-06T08:17:20.684368: step 9000, loss 1.92719, acc 0.695312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-9000
+
+
+Evaluation:
+2018-01-06T08:29:15.892506: step 9100, loss 0.923459, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-9100
+
+
+Evaluation:
+2018-01-06T08:40:40.229300: step 9200, loss 1.02689, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-9200
+
+
+Evaluation:
+2018-01-06T08:52:14.902474: step 9300, loss 0.945735, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-9300
+
+10
+
+Evaluation:
+2018-01-06T09:02:26.596833: step 9400, loss 0.943015, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-9400
+
+
+Evaluation:
+2018-01-06T09:12:46.171809: step 9500, loss 0.865869, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-9500
+
+
+Evaluation:
+2018-01-06T09:22:46.344597: step 9600, loss 1.22313, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-9600
+
+
+Evaluation:
+2018-01-06T09:31:35.158336: step 9700, loss 0.804983, acc 0.796875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-9700
+
+
+Evaluation:
+2018-01-06T09:39:14.455110: step 9800, loss 1.09642, acc 0.773438
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-9800
+
+
+Evaluation:
+2018-01-06T09:47:20.301447: step 9900, loss 0.942467, acc 0.796875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-9900
+
+
+Evaluation:
+2018-01-06T09:55:34.175792: step 10000, loss 0.790597, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-10000
+
+
+Evaluation:
+2018-01-06T10:03:54.285815: step 10100, loss 0.755933, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-10100
+
+
+Evaluation:
+2018-01-06T10:12:24.343000: step 10200, loss 0.824441, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-10200
+
+
+Evaluation:
+2018-01-06T10:20:50.564022: step 10300, loss 0.657214, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-10300
+
+11
+
+Evaluation:
+2018-01-06T10:29:39.506915: step 10400, loss 0.737903, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-10400
+
+
+Evaluation:
+2018-01-06T10:37:56.833270: step 10500, loss 0.791714, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-10500
+
+
+Evaluation:
+2018-01-06T10:46:08.718961: step 10600, loss 0.873885, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-10600
+
+
+Evaluation:
+2018-01-06T10:53:21.776930: step 10700, loss 0.670841, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-10700
+
+
+Evaluation:
+2018-01-06T11:00:59.236272: step 10800, loss 0.592859, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-10800
+
+
+Evaluation:
+2018-01-06T11:08:51.468045: step 10900, loss 0.646788, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-10900
+
+
+Evaluation:
+2018-01-06T11:16:53.250078: step 11000, loss 0.59689, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-11000
+
+
+Evaluation:
+2018-01-06T11:23:00.131114: step 11100, loss 0.691564, acc 0.804688
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-11100
+
+
+Evaluation:
+2018-01-06T11:29:30.595975: step 11200, loss 0.635782, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-11200
+
+12
+
+Evaluation:
+2018-01-06T11:36:56.043634: step 11300, loss 0.475113, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-11300
+
+
+Evaluation:
+2018-01-06T11:45:26.462471: step 11400, loss 0.559208, acc 0.804688
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-11400
+
+
+Evaluation:
+2018-01-06T11:53:55.279861: step 11500, loss 0.517592, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-11500
+
+
+Evaluation:
+2018-01-06T12:02:00.103525: step 11600, loss 0.567121, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-11600
+
+
+Evaluation:
+2018-01-06T12:07:20.497474: step 11700, loss 0.499849, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-11700
+
+
+Evaluation:
+2018-01-06T12:11:30.987436: step 11800, loss 0.494056, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-11800
+
+
+Evaluation:
+2018-01-06T12:15:42.454034: step 11900, loss 0.547648, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-11900
+
+
+Evaluation:
+2018-01-06T12:19:37.073235: step 12000, loss 0.671892, acc 0.773438
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-12000
+
+
+Evaluation:
+2018-01-06T12:23:40.686436: step 12100, loss 0.456764, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-12100
+
+13
+
+Evaluation:
+2018-01-06T12:27:50.409828: step 12200, loss 0.482623, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-12200
+
+
+Evaluation:
+2018-01-06T12:31:55.032069: step 12300, loss 0.468661, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-12300
+
+
+Evaluation:
+2018-01-06T12:35:57.706948: step 12400, loss 0.487505, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-12400
+
+
+Evaluation:
+2018-01-06T12:39:53.272896: step 12500, loss 0.514833, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-12500
+
+
+Evaluation:
+2018-01-06T12:44:02.321728: step 12600, loss 0.511318, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-12600
+
+
+Evaluation:
+2018-01-06T12:47:48.775789: step 12700, loss 0.437401, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-12700
+
+
+Evaluation:
+2018-01-06T12:51:34.302822: step 12800, loss 0.580444, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-12800
+
+
+Evaluation:
+2018-01-06T12:55:19.942014: step 12900, loss 0.524494, acc 0.882812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-12900
+
+
+Evaluation:
+2018-01-06T12:59:02.568487: step 13000, loss 0.425132, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-13000
+
+
+Evaluation:
+2018-01-06T13:02:49.863128: step 13100, loss 0.439325, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-13100
+
+14
+
+Evaluation:
+2018-01-06T13:06:40.503508: step 13200, loss 0.504663, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-13200
+
+
+Evaluation:
+2018-01-06T13:10:36.791745: step 13300, loss 0.476622, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-13300
+
+
+Evaluation:
+2018-01-06T13:14:31.889801: step 13400, loss 0.399285, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-13400
+
+
+Evaluation:
+2018-01-06T13:18:16.839269: step 13500, loss 0.463091, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-13500
+
+
+Evaluation:
+2018-01-06T13:22:11.009614: step 13600, loss 0.467331, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-13600
+
+
+Evaluation:
+2018-01-06T13:26:06.149877: step 13700, loss 0.460081, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-13700
+
+
+Evaluation:
+2018-01-06T13:30:02.504656: step 13800, loss 0.454115, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-13800
+
+
+Evaluation:
+2018-01-06T13:33:54.326922: step 13900, loss 0.433029, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-13900
+
+
+Evaluation:
+2018-01-06T13:37:41.927745: step 14000, loss 0.438304, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-14000
+
+15
+
+Evaluation:
+2018-01-06T13:41:29.082576: step 14100, loss 0.475887, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-14100
+
+
+Evaluation:
+2018-01-06T13:45:13.017627: step 14200, loss 0.562841, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-14200
+
+
+Evaluation:
+2018-01-06T13:48:57.122344: step 14300, loss 0.434354, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-14300
+
+
+Evaluation:
+2018-01-06T13:52:41.542908: step 14400, loss 0.544189, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-14400
+
+
+Evaluation:
+2018-01-06T13:56:27.473307: step 14500, loss 0.419133, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-14500
+
+
+Evaluation:
+2018-01-06T14:00:10.673761: step 14600, loss 0.471059, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-14600
+
+
+Evaluation:
+2018-01-06T14:03:54.363547: step 14700, loss 0.482697, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-14700
+
+
+Evaluation:
+2018-01-06T14:07:37.701104: step 14800, loss 0.453601, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-14800
+
+
+Evaluation:
+2018-01-06T14:11:30.067595: step 14900, loss 0.420281, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-14900
+
+
+Evaluation:
+2018-01-06T14:16:03.520016: step 15000, loss 0.43935, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-15000
+
+16
+
+Evaluation:
+2018-01-06T14:20:25.437982: step 15100, loss 0.43418, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-15100
+
+
+Evaluation:
+2018-01-06T14:24:41.619458: step 15200, loss 0.564406, acc 0.796875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-15200
+
+
+Evaluation:
+2018-01-06T14:28:48.824300: step 15300, loss 0.462323, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-15300
+
+
+Evaluation:
+2018-01-06T14:32:36.964825: step 15400, loss 0.542086, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-15400
+
+
+Evaluation:
+2018-01-06T14:36:36.259811: step 15500, loss 0.483488, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-15500
+
+
+Evaluation:
+2018-01-06T14:40:25.631314: step 15600, loss 0.406408, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-15600
+
+
+Evaluation:
+2018-01-06T14:44:42.646623: step 15700, loss 0.442823, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-15700
+
+
+Evaluation:
+2018-01-06T14:48:44.017668: step 15800, loss 0.425698, acc 0.890625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-15800
+
+
+Evaluation:
+2018-01-06T14:52:44.702665: step 15900, loss 0.397864, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-15900
+
+17
+
+Evaluation:
+2018-01-06T14:56:47.526172: step 16000, loss 0.462334, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-16000
+
+
+Evaluation:
+2018-01-06T15:00:52.668399: step 16100, loss 0.553786, acc 0.796875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-16100
+
+
+Evaluation:
+2018-01-06T15:06:56.869931: step 16200, loss 0.405923, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-16200
+
+
+Evaluation:
+2018-01-06T15:12:23.330448: step 16300, loss 0.387796, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-16300
+
+
+Evaluation:
+2018-01-06T15:16:43.300854: step 16400, loss 0.418726, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-16400
+
+
+Evaluation:
+2018-01-06T15:21:23.532508: step 16500, loss 0.436295, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-16500
+
+
+Evaluation:
+2018-01-06T15:25:49.411953: step 16600, loss 0.542612, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-16600
+
+
+Evaluation:
+2018-01-06T15:30:22.087375: step 16700, loss 0.500801, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-16700
+
+
+Evaluation:
+2018-01-06T15:35:21.865865: step 16800, loss 0.408634, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-16800
+
+18
+
+Evaluation:
+2018-01-06T15:39:43.452101: step 16900, loss 0.414572, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-16900
+
+
+Evaluation:
+2018-01-06T15:44:05.809906: step 17000, loss 0.482377, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-17000
+
+
+Evaluation:
+2018-01-06T15:48:38.719195: step 17100, loss 0.453496, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-17100
+
+
+Evaluation:
+2018-01-06T15:52:53.210184: step 17200, loss 0.453225, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-17200
+
+
+Evaluation:
+2018-01-06T15:57:15.569041: step 17300, loss 0.429518, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-17300
+
+
+Evaluation:
+2018-01-06T16:01:57.894664: step 17400, loss 0.496132, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-17400
+
+
+Evaluation:
+2018-01-06T16:07:40.381130: step 17500, loss 0.569782, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-17500
+
+
+Evaluation:
+2018-01-06T16:13:18.391592: step 17600, loss 0.487361, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-17600
+
+
+Evaluation:
+2018-01-06T16:18:08.353325: step 17700, loss 0.487557, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-17700
+
+
+Evaluation:
+2018-01-06T16:22:29.427165: step 17800, loss 0.472473, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-17800
+
+19
+
+Evaluation:
+2018-01-06T16:26:28.122370: step 17900, loss 0.472169, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-17900
+
+
+Evaluation:
+2018-01-06T16:30:30.886310: step 18000, loss 0.572402, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-18000
+
+
+Evaluation:
+2018-01-06T16:34:42.801980: step 18100, loss 0.586134, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-18100
+
+
+Evaluation:
+2018-01-06T16:38:55.841183: step 18200, loss 0.495691, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-18200
+
+
+Evaluation:
+2018-01-06T16:43:09.898217: step 18300, loss 0.563782, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-18300
+
+
+Evaluation:
+2018-01-06T16:46:53.535524: step 18400, loss 0.58887, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-18400
+
+
+Evaluation:
+2018-01-06T16:50:36.961178: step 18500, loss 0.553667, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-18500
+
+
+Evaluation:
+2018-01-06T16:54:22.004986: step 18600, loss 0.59133, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-18600
+
+
+Evaluation:
+2018-01-06T16:58:06.824672: step 18700, loss 0.524076, acc 0.882812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-18700
+
+20
+
+Evaluation:
+2018-01-06T17:01:55.316936: step 18800, loss 0.485096, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-18800
+
+
+Evaluation:
+2018-01-06T17:05:52.525028: step 18900, loss 0.598147, acc 0.882812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-18900
+
+
+Evaluation:
+2018-01-06T17:09:46.597385: step 19000, loss 0.592934, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-19000
+
+
+Evaluation:
+2018-01-06T17:13:44.686143: step 19100, loss 0.587305, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-19100
+
+
+Evaluation:
+2018-01-06T17:17:34.695488: step 19200, loss 0.444625, acc 0.890625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-19200
+
+
+Evaluation:
+2018-01-06T17:21:31.041552: step 19300, loss 0.626701, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-19300
+
+
+Evaluation:
+2018-01-06T17:26:08.963285: step 19400, loss 0.41969, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-19400
+
+
+Evaluation:
+2018-01-06T17:30:25.639504: step 19500, loss 0.579921, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-19500
+
+
+Evaluation:
+2018-01-06T17:34:37.723805: step 19600, loss 0.668877, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-19600
+
+21
+
+Evaluation:
+2018-01-06T17:38:36.569043: step 19700, loss 0.557458, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-19700
+
+
+Evaluation:
+2018-01-06T17:42:43.742882: step 19800, loss 0.58614, acc 0.890625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-19800
+
+
+Evaluation:
+2018-01-06T17:47:09.887574: step 19900, loss 0.539402, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-19900
+
+
+Evaluation:
+2018-01-06T17:51:19.845756: step 20000, loss 0.449838, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-20000
+
+
+Evaluation:
+2018-01-06T17:55:18.287501: step 20100, loss 0.522685, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-20100
+
+
+Evaluation:
+2018-01-06T17:59:35.206759: step 20200, loss 0.654368, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-20200
+
+
+Evaluation:
+2018-01-06T18:03:32.870174: step 20300, loss 0.472593, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-20300
+
+
+Evaluation:
+2018-01-06T18:07:46.299756: step 20400, loss 0.650796, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-20400
+
+
+Evaluation:
+2018-01-06T18:11:52.387470: step 20500, loss 714.622, acc 0.273438
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-20500
+
+
+Evaluation:
+2018-01-06T18:16:38.496071: step 20600, loss 80.6196, acc 0.296875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-20600
+
+22
+
+Evaluation:
+2018-01-06T18:24:01.579679: step 20700, loss 13.255, acc 0.570312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-20700
+
+
+Evaluation:
+2018-01-06T18:29:29.072937: step 20800, loss 8.0525, acc 0.632812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-20800
+
+
+Evaluation:
+2018-01-06T18:34:59.681295: step 20900, loss 6.69262, acc 0.640625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-20900
+
+
+Evaluation:
+2018-01-06T18:40:16.441121: step 21000, loss 5.47668, acc 0.6875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-21000
+
+
+Evaluation:
+2018-01-06T18:45:33.055060: step 21100, loss 5.52897, acc 0.695312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-21100
+
+
+Evaluation:
+2018-01-06T18:50:40.566947: step 21200, loss 4.49751, acc 0.71875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-21200
+
+
+Evaluation:
+2018-01-06T18:55:43.940423: step 21300, loss 4.39318, acc 0.726562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-21300
+
+
+Evaluation:
+2018-01-06T19:01:26.906461: step 21400, loss 3.87641, acc 0.726562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-21400
+
+
+Evaluation:
+2018-01-06T19:06:52.015623: step 21500, loss 3.59004, acc 0.765625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-21500
+
+23
+
+Evaluation:
+2018-01-06T19:11:49.084984: step 21600, loss 3.33613, acc 0.757812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-21600
+
+
+Evaluation:
+2018-01-06T19:17:04.935498: step 21700, loss 3.12503, acc 0.773438
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-21700
+
+
+Evaluation:
+2018-01-06T19:22:47.342585: step 21800, loss 3.55197, acc 0.6875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-21800
+
+
+Evaluation:
+2018-01-06T19:27:54.894695: step 21900, loss 2.98736, acc 0.773438
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-21900
+
+
+Evaluation:
+2018-01-06T19:32:49.277705: step 22000, loss 2.55495, acc 0.757812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-22000
+
+
+Evaluation:
+2018-01-06T19:37:48.498532: step 22100, loss 2.79312, acc 0.757812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-22100
+
+
+Evaluation:
+2018-01-06T19:42:46.357195: step 22200, loss 2.8146, acc 0.710938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-22200
+
+
+Evaluation:
+2018-01-06T19:47:45.213863: step 22300, loss 2.87708, acc 0.710938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-22300
+
+
+Evaluation:
+2018-01-06T19:52:14.223804: step 22400, loss 2.2027, acc 0.734375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-22400
+
+
+Evaluation:
+2018-01-06T19:56:34.603314: step 22500, loss 2.41834, acc 0.765625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-22500
+
+24
+
+Evaluation:
+2018-01-06T20:00:48.031719: step 22600, loss 2.74685, acc 0.734375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-22600
+
+
+Evaluation:
+2018-01-06T20:05:14.972630: step 22700, loss 2.05572, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-22700
+
+
+Evaluation:
+2018-01-06T20:09:27.832340: step 22800, loss 2.0434, acc 0.765625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-22800
+
+
+Evaluation:
+2018-01-06T20:13:27.709129: step 22900, loss 2.03817, acc 0.757812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-22900
+
+
+Evaluation:
+2018-01-06T20:17:51.017639: step 23000, loss 1.91313, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-23000
+
+
+Evaluation:
+2018-01-06T20:22:04.488986: step 23100, loss 1.83965, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-23100
+
+
+Evaluation:
+2018-01-06T20:26:26.774885: step 23200, loss 1.72515, acc 0.804688
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-23200
+
+
+Evaluation:
+2018-01-06T20:30:35.703813: step 23300, loss 2.20284, acc 0.75
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-23300
+
+
+Evaluation:
+2018-01-06T20:34:44.392539: step 23400, loss 1.84022, acc 0.765625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-23400
+
+25
+
+Evaluation:
+2018-01-06T20:38:46.382116: step 23500, loss 1.49615, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-23500
+
+
+Evaluation:
+2018-01-06T20:42:50.746145: step 23600, loss 1.6261, acc 0.796875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-23600
+
+
+Evaluation:
+2018-01-06T20:46:57.586074: step 23700, loss 1.70456, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-23700
+
+
+Evaluation:
+2018-01-06T20:51:22.504270: step 23800, loss 2.21015, acc 0.734375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-23800
+
+
+Evaluation:
+2018-01-06T20:55:39.869773: step 23900, loss 1.53477, acc 0.796875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-23900
+
+
+Evaluation:
+2018-01-06T20:59:48.250778: step 24000, loss 1.56404, acc 0.75
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-24000
+
+
+Evaluation:
+2018-01-06T21:03:51.569512: step 24100, loss 1.54101, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-24100
+
+
+Evaluation:
+2018-01-06T21:07:52.391172: step 24200, loss 1.36242, acc 0.765625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-24200
+
+
+Evaluation:
+2018-01-06T21:11:57.720239: step 24300, loss 1.56207, acc 0.757812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-24300
+
+26
+
+Evaluation:
+2018-01-06T21:16:16.141749: step 24400, loss 1.43077, acc 0.757812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-24400
+
+
+Evaluation:
+2018-01-06T21:20:36.248246: step 24500, loss 1.21571, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-24500
+
+
+Evaluation:
+2018-01-06T21:25:06.863268: step 24600, loss 1.46431, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-24600
+
+
+Evaluation:
+2018-01-06T21:29:34.627353: step 24700, loss 1.18398, acc 0.773438
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-24700
+
+
+Evaluation:
+2018-01-06T21:33:52.849318: step 24800, loss 1.25136, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-24800
+
+
+Evaluation:
+2018-01-06T21:38:04.683226: step 24900, loss 1.16407, acc 0.804688
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-24900
+
+
+Evaluation:
+2018-01-06T21:42:02.786199: step 25000, loss 1.35249, acc 0.796875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-25000
+
+
+Evaluation:
+2018-01-06T21:46:04.888860: step 25100, loss 1.12709, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-25100
+
+
+Evaluation:
+2018-01-06T21:50:00.644343: step 25200, loss 1.10402, acc 0.773438
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-25200
+
+
+Evaluation:
+2018-01-06T21:54:36.659636: step 25300, loss 1.08403, acc 0.796875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-25300
+
+27
+
+Evaluation:
+2018-01-06T21:58:38.638801: step 25400, loss 1.11274, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-25400
+
+
+Evaluation:
+2018-01-06T22:02:27.514269: step 25500, loss 1.08744, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-25500
+
+
+Evaluation:
+2018-01-06T22:06:21.728587: step 25600, loss 1.04525, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-25600
+
+
+Evaluation:
+2018-01-06T22:10:15.576003: step 25700, loss 0.988356, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-25700
+
+
+Evaluation:
+2018-01-06T22:14:03.921140: step 25800, loss 1.00713, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-25800
+
+
+Evaluation:
+2018-01-06T22:17:51.003310: step 25900, loss 0.941291, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-25900
+
+
+Evaluation:
+2018-01-06T22:21:37.933091: step 26000, loss 0.943287, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-26000
+
+
+Evaluation:
+2018-01-06T22:25:26.401134: step 26100, loss 0.970902, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-26100
+
+
+Evaluation:
+2018-01-06T22:29:11.850628: step 26200, loss 1.49794, acc 0.757812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-26200
+
+28
+
+Evaluation:
+2018-01-06T22:32:56.067876: step 26300, loss 0.907508, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-26300
+
+
+Evaluation:
+2018-01-06T22:36:54.563533: step 26400, loss 0.815115, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-26400
+
+
+Evaluation:
+2018-01-06T22:40:45.741489: step 26500, loss 1.0595, acc 0.804688
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-26500
+
+
+Evaluation:
+2018-01-06T22:44:37.129058: step 26600, loss 1.18997, acc 0.796875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-26600
+
+
+Evaluation:
+2018-01-06T22:48:22.377306: step 26700, loss 0.996742, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-26700
+
+
+Evaluation:
+2018-01-06T22:52:09.318256: step 26800, loss 0.883096, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-26800
+
+
+Evaluation:
+2018-01-06T22:55:54.010367: step 26900, loss 0.879919, acc 0.804688
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-26900
+
+
+Evaluation:
+2018-01-06T22:59:38.873112: step 27000, loss 0.760673, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-27000
+
+
+Evaluation:
+2018-01-06T23:03:24.172515: step 27100, loss 0.763534, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-27100
+
+
+Evaluation:
+2018-01-06T23:07:11.320844: step 27200, loss 0.909943, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-27200
+
+29
+
+Evaluation:
+2018-01-06T23:10:57.989959: step 27300, loss 0.898081, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-27300
+
+
+Evaluation:
+2018-01-06T23:14:44.110364: step 27400, loss 0.808412, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-27400
+
+
+Evaluation:
+2018-01-06T23:18:30.537409: step 27500, loss 0.914317, acc 0.804688
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-27500
+
+
+Evaluation:
+2018-01-06T23:22:17.755238: step 27600, loss 0.874016, acc 0.804688
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-27600
+
+
+Evaluation:
+2018-01-06T23:26:03.970863: step 27700, loss 0.782405, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-27700
+
+
+Evaluation:
+2018-01-06T23:29:49.054475: step 27800, loss 0.777462, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-27800
+
+
+Evaluation:
+2018-01-06T23:33:41.817010: step 27900, loss 0.769507, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-27900
+
+
+Evaluation:
+2018-01-06T23:37:36.740981: step 28000, loss 0.730753, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-28000
+
+
+Evaluation:
+2018-01-06T23:41:36.135020: step 28100, loss 0.829884, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-28100
+
+30
+
+Evaluation:
+2018-01-06T23:45:24.372110: step 28200, loss 0.799154, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-28200
+
+
+Evaluation:
+2018-01-06T23:49:10.324199: step 28300, loss 0.827746, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-28300
+
+
+Evaluation:
+2018-01-06T23:52:56.576295: step 28400, loss 0.68732, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-28400
+
+
+Evaluation:
+2018-01-06T23:56:43.723544: step 28500, loss 0.794869, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-28500
+
+
+Evaluation:
+2018-01-07T00:00:29.138348: step 28600, loss 0.757258, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-28600
+
+
+Evaluation:
+2018-01-07T00:04:14.843810: step 28700, loss 0.850067, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-28700
+
+
+Evaluation:
+2018-01-07T00:08:01.645834: step 28800, loss 0.9554, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-28800
+
+
+Evaluation:
+2018-01-07T00:12:14.941414: step 28900, loss 0.669582, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-28900
+
+
+Evaluation:
+2018-01-07T00:16:09.890856: step 29000, loss 0.754579, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-29000
+
+31
+
+Evaluation:
+2018-01-07T00:19:55.953759: step 29100, loss 0.824096, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-29100
+
+
+Evaluation:
+2018-01-07T00:23:49.334294: step 29200, loss 0.7201, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-29200
+
+
+Evaluation:
+2018-01-07T00:27:47.227949: step 29300, loss 0.742684, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-29300
+
+
+Evaluation:
+2018-01-07T00:31:34.915718: step 29400, loss 0.611949, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-29400
+
+
+Evaluation:
+2018-01-07T00:35:28.654357: step 29500, loss 0.601685, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-29500
+
+
+Evaluation:
+2018-01-07T00:39:32.322227: step 29600, loss 0.951712, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-29600
+
+
+Evaluation:
+2018-01-07T00:43:20.855571: step 29700, loss 0.682814, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-29700
+
+
+Evaluation:
+2018-01-07T00:47:12.581491: step 29800, loss 0.907233, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-29800
+
+
+Evaluation:
+2018-01-07T00:51:27.301339: step 29900, loss 0.725067, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-29900
+
+
+Evaluation:
+2018-01-07T00:55:31.455929: step 30000, loss 0.779706, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-30000
+
+32
+
+Evaluation:
+2018-01-07T00:59:27.614495: step 30100, loss 0.58966, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-30100
+
+
+Evaluation:
+2018-01-07T01:03:28.754631: step 30200, loss 0.701463, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-30200
+
+
+Evaluation:
+2018-01-07T01:07:36.540365: step 30300, loss 0.69659, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-30300
+
+
+Evaluation:
+2018-01-07T01:11:28.704063: step 30400, loss 0.666372, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-30400
+
+
+Evaluation:
+2018-01-07T01:15:15.265660: step 30500, loss 0.675779, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-30500
+
+
+Evaluation:
+2018-01-07T01:19:01.890231: step 30600, loss 0.758121, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-30600
+
+
+Evaluation:
+2018-01-07T01:22:49.151162: step 30700, loss 0.847478, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-30700
+
+
+Evaluation:
+2018-01-07T01:26:36.332394: step 30800, loss 0.859341, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-30800
+
+
+Evaluation:
+2018-01-07T01:30:22.737847: step 30900, loss 0.642609, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-30900
+
+33
+
+Evaluation:
+2018-01-07T01:34:26.537464: step 31000, loss 0.636382, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-31000
+
+
+Evaluation:
+2018-01-07T01:38:14.669324: step 31100, loss 0.716951, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-31100
+
+
+Evaluation:
+2018-01-07T01:41:59.971247: step 31200, loss 0.762484, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-31200
+
+
+Evaluation:
+2018-01-07T01:45:44.951110: step 31300, loss 1.23951, acc 0.765625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-31300
+
+
+Evaluation:
+2018-01-07T01:49:29.917577: step 31400, loss 0.652833, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-31400
+
+
+Evaluation:
+2018-01-07T01:53:14.845168: step 31500, loss 0.787263, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-31500
+
+
+Evaluation:
+2018-01-07T01:57:00.600108: step 31600, loss 0.670353, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-31600
+
+
+Evaluation:
+2018-01-07T02:00:44.979984: step 31700, loss 0.733746, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-31700
+
+
+Evaluation:
+2018-01-07T02:04:28.856913: step 31800, loss 0.934602, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-31800
+
+34
+
+Evaluation:
+2018-01-07T02:08:12.965859: step 31900, loss 0.610314, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-31900
+
+
+Evaluation:
+2018-01-07T02:11:59.803018: step 32000, loss 0.686238, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-32000
+
+
+Evaluation:
+2018-01-07T02:15:44.001745: step 32100, loss 0.717495, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-32100
+
+
+Evaluation:
+2018-01-07T02:19:28.939499: step 32200, loss 1.36586, acc 0.796875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-32200
+
+
+Evaluation:
+2018-01-07T02:23:53.172850: step 32300, loss 133.838, acc 0.367188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-32300
+
+
+Evaluation:
+2018-01-07T02:35:04.896970: step 32400, loss 9.17823, acc 0.632812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-32400
+
+
+Evaluation:
+2018-01-07T02:46:45.803355: step 32500, loss 6.92145, acc 0.710938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-32500
+
+
+Evaluation:
+2018-01-07T02:58:08.215291: step 32600, loss 4.97934, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-32600
+
+
+Evaluation:
+2018-01-07T03:09:17.209674: step 32700, loss 5.33284, acc 0.757812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-32700
+
+
+Evaluation:
+2018-01-07T03:20:58.696698: step 32800, loss 6.47715, acc 0.710938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-32800
+
+35
+
+Evaluation:
+2018-01-07T03:32:43.179205: step 32900, loss 4.07577, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-32900
+
+
+Evaluation:
+2018-01-07T03:43:29.611023: step 33000, loss 4.44892, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-33000
+
+
+Evaluation:
+2018-01-07T03:54:29.539658: step 33100, loss 5.1402, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-33100
+
+
+Evaluation:
+2018-01-07T04:05:46.569810: step 33200, loss 3.52215, acc 0.765625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-33200
+
+
+Evaluation:
+2018-01-07T04:16:23.654589: step 33300, loss 2.86767, acc 0.796875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-33300
+
+
+Evaluation:
+2018-01-07T04:27:07.452289: step 33400, loss 2.62672, acc 0.804688
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-33400
+
+
+Evaluation:
+2018-01-07T04:38:02.566598: step 33500, loss 2.79906, acc 0.796875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-33500
+
+
+Evaluation:
+2018-01-07T04:47:42.419496: step 33600, loss 2.16102, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-33600
+
+
+Evaluation:
+2018-01-07T04:57:44.177624: step 33700, loss 2.35851, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-33700
+
+36
+
+Evaluation:
+2018-01-07T05:07:32.620105: step 33800, loss 2.47684, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-33800
+
+
+Evaluation:
+2018-01-07T05:17:11.801626: step 33900, loss 2.10225, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-33900
+
+
+Evaluation:
+2018-01-07T05:26:34.646918: step 34000, loss 1.63104, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-34000
+
+
+Evaluation:
+2018-01-07T05:35:41.957856: step 34100, loss 1.7274, acc 0.804688
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-34100
+
+
+Evaluation:
+2018-01-07T05:43:39.958086: step 34200, loss 2.53323, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-34200
+
+
+Evaluation:
+2018-01-07T05:51:15.683970: step 34300, loss 1.93437, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-34300
+
+
+Evaluation:
+2018-01-07T05:59:01.030624: step 34400, loss 3.05504, acc 0.757812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-34400
+
+
+Evaluation:
+2018-01-07T06:06:35.930903: step 34500, loss 1.88443, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-34500
+
+
+Evaluation:
+2018-01-07T06:14:14.617737: step 34600, loss 1.90821, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-34600
+
+
+Evaluation:
+2018-01-07T06:21:42.783480: step 34700, loss 1.97678, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-34700
+
+37
+
+Evaluation:
+2018-01-07T06:28:52.156455: step 34800, loss 1.94275, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-34800
+
+
+Evaluation:
+2018-01-07T06:36:14.384010: step 34900, loss 1.82454, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-34900
+
+
+Evaluation:
+2018-01-07T06:42:49.229246: step 35000, loss 1.6569, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-35000
+
+
+Evaluation:
+2018-01-07T06:49:04.450327: step 35100, loss 1.89297, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-35100
+
+
+Evaluation:
+2018-01-07T06:55:45.950767: step 35200, loss 1.67448, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-35200
+
+
+Evaluation:
+2018-01-07T07:01:49.257586: step 35300, loss 1.53518, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-35300
+
+
+Evaluation:
+2018-01-07T07:07:34.076571: step 35400, loss 2.16605, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-35400
+
+
+Evaluation:
+2018-01-07T07:13:17.689585: step 35500, loss 1.4388, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-35500
+
+
+Evaluation:
+2018-01-07T07:18:26.737585: step 35600, loss 1.50052, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-35600
+
+38
+
+Evaluation:
+2018-01-07T07:24:15.350313: step 35700, loss 1.48916, acc 0.804688
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-35700
+
+
+Evaluation:
+2018-01-07T07:29:56.553503: step 35800, loss 1.23061, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-35800
+
+
+Evaluation:
+2018-01-07T07:35:09.571793: step 35900, loss 1.38328, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-35900
+
+
+Evaluation:
+2018-01-07T07:40:44.511367: step 36000, loss 1.45315, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-36000
+
+
+Evaluation:
+2018-01-07T07:45:53.695284: step 36100, loss 1.34653, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-36100
+
+
+Evaluation:
+2018-01-07T07:50:59.332207: step 36200, loss 1.59462, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-36200
+
+
+Evaluation:
+2018-01-07T07:55:37.855709: step 36300, loss 1.47394, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-36300
+
+
+Evaluation:
+2018-01-07T08:00:29.546573: step 36400, loss 1.39763, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-36400
+
+
+Evaluation:
+2018-01-07T08:05:14.611621: step 36500, loss 1.75031, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-36500
+
+39
+
+Evaluation:
+2018-01-07T08:09:58.973039: step 36600, loss 1.49208, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-36600
+
+
+Evaluation:
+2018-01-07T08:14:39.642458: step 36700, loss 1.22575, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-36700
+
+
+Evaluation:
+2018-01-07T08:19:37.639895: step 36800, loss 1.38941, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-36800
+
+
+Evaluation:
+2018-01-07T08:24:28.887185: step 36900, loss 1.17822, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-36900
+
+
+Evaluation:
+2018-01-07T08:29:16.200620: step 37000, loss 1.30118, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-37000
+
+
+Evaluation:
+2018-01-07T08:33:50.661148: step 37100, loss 1.58058, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-37100
+
+
+Evaluation:
+2018-01-07T08:38:27.849191: step 37200, loss 1.34224, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-37200
+
+
+Evaluation:
+2018-01-07T08:43:02.778300: step 37300, loss 1.15449, acc 0.882812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-37300
+
+
+Evaluation:
+2018-01-07T08:47:27.256529: step 37400, loss 1.45749, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-37400
+
+
+Evaluation:
+2018-01-07T08:52:05.846733: step 37500, loss 1.30344, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-37500
+
+40
+
+Evaluation:
+2018-01-07T08:57:03.767338: step 37600, loss 1.13831, acc 0.914062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-37600
+
+
+Evaluation:
+2018-01-07T09:01:42.043734: step 37700, loss 1.29702, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-37700
+
+
+Evaluation:
+2018-01-07T09:06:03.297598: step 37800, loss 1.2872, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-37800
+
+
+Evaluation:
+2018-01-07T09:10:33.678352: step 37900, loss 1.19531, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-37900
+
+
+Evaluation:
+2018-01-07T09:15:19.123606: step 38000, loss 1.13098, acc 0.898438
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-38000
+
+
+Evaluation:
+2018-01-07T09:19:54.710685: step 38100, loss 1.21008, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-38100
+
+
+Evaluation:
+2018-01-07T09:25:01.217147: step 38200, loss 1.13005, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-38200
+
+
+Evaluation:
+2018-01-07T09:29:42.539404: step 38300, loss 1.22091, acc 0.882812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-38300
+
+
+Evaluation:
+2018-01-07T09:34:40.265898: step 38400, loss 0.999492, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-38400
+
+41
+
+Evaluation:
+2018-01-07T09:39:25.684780: step 38500, loss 1.19432, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-38500
+
+
+Evaluation:
+2018-01-07T09:44:16.818369: step 38600, loss 1.26499, acc 0.882812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-38600
+
+
+Evaluation:
+2018-01-07T09:49:04.207264: step 38700, loss 1.06041, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-38700
+
+
+Evaluation:
+2018-01-07T09:53:49.556503: step 38800, loss 1.3947, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-38800
+
+
+Evaluation:
+2018-01-07T09:58:31.137282: step 38900, loss 1.27395, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-38900
+
+
+Evaluation:
+2018-01-07T10:03:09.823822: step 39000, loss 1.24568, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-39000
+
+
+Evaluation:
+2018-01-07T10:08:01.121385: step 39100, loss 1.06625, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-39100
+
+
+Evaluation:
+2018-01-07T10:12:36.509494: step 39200, loss 0.99373, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-39200
+
+
+Evaluation:
+2018-01-07T10:17:00.970436: step 39300, loss 0.892875, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-39300
+
+42
+
+Evaluation:
+2018-01-07T10:21:26.384622: step 39400, loss 1.15548, acc 0.804688
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-39400
+
+
+Evaluation:
+2018-01-07T10:26:04.844784: step 39500, loss 0.936527, acc 0.890625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-39500
+
+
+Evaluation:
+2018-01-07T10:30:34.182068: step 39600, loss 1.04432, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-39600
+
+
+Evaluation:
+2018-01-07T10:35:17.649147: step 39700, loss 0.969515, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-39700
+
+
+Evaluation:
+2018-01-07T10:39:51.725406: step 39800, loss 1.23925, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-39800
+
+
+Evaluation:
+2018-01-07T10:44:54.187821: step 39900, loss 1.16351, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-39900
+
+
+Evaluation:
+2018-01-07T10:49:58.491971: step 40000, loss 0.995323, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-40000
+
+
+Evaluation:
+2018-01-07T10:54:51.089369: step 40100, loss 0.931774, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-40100
+
+
+Evaluation:
+2018-01-07T10:59:16.560994: step 40200, loss 0.89372, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-40200
+
+
+Evaluation:
+2018-01-07T11:04:09.465452: step 40300, loss 1.20178, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-40300
+
+43
+
+Evaluation:
+2018-01-07T11:09:02.095678: step 40400, loss 0.811223, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-40400
+
+
+Evaluation:
+2018-01-07T11:13:22.259106: step 40500, loss 0.83577, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-40500
+
+
+Evaluation:
+2018-01-07T11:17:58.594727: step 40600, loss 0.934844, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-40600
+
+
+Evaluation:
+2018-01-07T11:22:42.956561: step 40700, loss 0.875206, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-40700
+
+
+Evaluation:
+2018-01-07T11:26:53.224768: step 40800, loss 1.38318, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-40800
+
+
+Evaluation:
+2018-01-07T11:31:20.601040: step 40900, loss 1.06857, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-40900
+
+
+Evaluation:
+2018-01-07T11:35:41.254679: step 41000, loss 1.97964, acc 0.757812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-41000
+
+
+Evaluation:
+2018-01-07T11:39:58.122486: step 41100, loss 0.94483, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-41100
+
+
+Evaluation:
+2018-01-07T11:44:33.990683: step 41200, loss 0.826089, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-41200
+
+44
+
+Evaluation:
+2018-01-07T11:49:31.502044: step 41300, loss 0.976441, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-41300
+
+
+Evaluation:
+2018-01-07T11:54:13.292375: step 41400, loss 0.82184, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-41400
+
+
+Evaluation:
+2018-01-07T11:58:49.961153: step 41500, loss 0.759864, acc 0.890625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-41500
+
+
+Evaluation:
+2018-01-07T12:03:26.731940: step 41600, loss 1.24917, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-41600
+
+
+Evaluation:
+2018-01-07T12:07:29.181770: step 41700, loss 0.871466, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-41700
+
+
+Evaluation:
+2018-01-07T12:11:18.431631: step 41800, loss 0.994988, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-41800
+
+
+Evaluation:
+2018-01-07T12:15:10.636384: step 41900, loss 1.0085, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-41900
+
+
+Evaluation:
+2018-01-07T12:19:03.358670: step 42000, loss 0.927228, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-42000
+
+
+Evaluation:
+2018-01-07T12:22:58.842065: step 42100, loss 0.828842, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-42100
+
+
+Evaluation:
+2018-01-07T12:26:47.690610: step 42200, loss 0.87867, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-42200
+
+45
+
+Evaluation:
+2018-01-07T12:30:45.902964: step 42300, loss 0.762689, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-42300
+
+
+Evaluation:
+2018-01-07T12:34:50.839539: step 42400, loss 0.866532, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-42400
+
+
+Evaluation:
+2018-01-07T12:38:55.036492: step 42500, loss 0.7647, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-42500
+
+
+Evaluation:
+2018-01-07T12:43:15.294898: step 42600, loss 0.840603, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-42600
+
+
+Evaluation:
+2018-01-07T12:48:24.189969: step 42700, loss 0.890408, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-42700
+
+
+Evaluation:
+2018-01-07T12:54:09.811693: step 42800, loss 1.16695, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-42800
+
+
+Evaluation:
+2018-01-07T12:59:01.462002: step 42900, loss 1.07187, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-42900
+
+
+Evaluation:
+2018-01-07T13:04:43.265251: step 43000, loss 1.09126, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-43000
+
+
+Evaluation:
+2018-01-07T13:11:06.937516: step 43100, loss 0.842552, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-43100
+
+46
+
+Evaluation:
+2018-01-07T13:15:41.356424: step 43200, loss 0.907357, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-43200
+
+
+Evaluation:
+2018-01-07T13:20:44.346656: step 43300, loss 0.835044, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-43300
+
+
+Evaluation:
+2018-01-07T13:25:48.747557: step 43400, loss 1.00039, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-43400
+
+
+Evaluation:
+2018-01-07T13:31:01.127953: step 43500, loss 0.794063, acc 0.890625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-43500
+
+
+Evaluation:
+2018-01-07T13:36:15.729846: step 43600, loss 0.852068, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-43600
+
+
+Evaluation:
+2018-01-07T13:41:03.351290: step 43700, loss 1.23641, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-43700
+
+
+Evaluation:
+2018-01-07T13:46:24.045009: step 43800, loss 1.19473, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-43800
+
+
+Evaluation:
+2018-01-07T13:51:55.648724: step 43900, loss 0.771303, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-43900
+
+
+Evaluation:
+2018-01-07T13:58:17.883901: step 44000, loss 241012, acc 0.148438
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-44000
+
+47
+
+Evaluation:
+2018-01-07T14:07:40.348470: step 44100, loss 93.7657, acc 0.578125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-44100
+
+
+Evaluation:
+2018-01-07T14:24:16.467490: step 44200, loss 48.3209, acc 0.601562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-44200
+
+
+Evaluation:
+2018-01-07T14:44:00.762642: step 44300, loss 36.5782, acc 0.601562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-44300
+
+
+Evaluation:
+2018-01-07T15:05:57.263829: step 44400, loss 24.9361, acc 0.695312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-44400
+
+
+Evaluation:
+2018-01-07T15:28:26.006139: step 44500, loss 25.0079, acc 0.695312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-44500
+
+
+Evaluation:
+2018-01-07T15:52:13.695459: step 44600, loss 17.6801, acc 0.71875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-44600
+
+
+Evaluation:
+2018-01-07T16:15:36.358160: step 44700, loss 17.0746, acc 0.726562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-44700
+
+
+Evaluation:
+2018-01-07T16:39:13.332746: step 44800, loss 17.999, acc 0.726562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-44800
+
+
+Evaluation:
+2018-01-07T17:02:05.176900: step 44900, loss 14.0023, acc 0.710938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-44900
+
+
+Evaluation:
+2018-01-07T17:24:53.371839: step 45000, loss 10.8719, acc 0.757812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-45000
+
+48
+
+Evaluation:
+2018-01-07T17:46:04.894758: step 45100, loss 11.5086, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-45100
+
+
+Evaluation:
+2018-01-07T18:08:19.316022: step 45200, loss 10.8217, acc 0.75
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-45200
+
+
+Evaluation:
+2018-01-07T18:28:44.994702: step 45300, loss 12.0176, acc 0.757812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-45300
+
+
+Evaluation:
+2018-01-07T18:50:09.188912: step 45400, loss 9.00341, acc 0.765625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-45400
+
+
+Evaluation:
+2018-01-07T19:10:04.935826: step 45500, loss 9.35295, acc 0.734375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-45500
+
+
+Evaluation:
+2018-01-07T19:31:06.379984: step 45600, loss 12.6714, acc 0.757812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-45600
+
+
+Evaluation:
+2018-01-07T19:51:37.217774: step 45700, loss 9.28364, acc 0.71875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-45700
+
+
+Evaluation:
+2018-01-07T20:12:58.539305: step 45800, loss 8.62442, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-45800
+
+
+Evaluation:
+2018-01-07T20:32:45.893410: step 45900, loss 9.48794, acc 0.757812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-45900
+
+49
+
+Evaluation:
+2018-01-07T20:52:10.348880: step 46000, loss 6.76309, acc 0.804688
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-46000
+
+
+Evaluation:
+2018-01-07T21:12:06.538020: step 46100, loss 10.9246, acc 0.742188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-46100
+
+
+Evaluation:
+2018-01-07T21:33:28.545692: step 46200, loss 7.12184, acc 0.804688
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-46200
+
+
+Evaluation:
+2018-01-07T21:54:25.474291: step 46300, loss 6.28471, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-46300
+
+
+Evaluation:
+2018-01-07T22:14:30.470274: step 46400, loss 5.69038, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-46400
+
+
+Evaluation:
+2018-01-07T22:33:03.407682: step 46500, loss 6.50613, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-46500
+
+
+Evaluation:
+2018-01-07T22:51:59.656463: step 46600, loss 6.37134, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-46600
+
+
+Evaluation:
+2018-01-07T23:10:15.899117: step 46700, loss 7.5744, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-46700
+
+
+Evaluation:
+2018-01-07T23:29:09.572548: step 46800, loss 9.84659, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-46800
+
+
+Evaluation:
+2018-01-07T23:48:03.158727: step 46900, loss 7.88061, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-46900
+
+50
+
+Evaluation:
+2018-01-08T00:07:10.298873: step 47000, loss 8.43301, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-47000
+
+
+Evaluation:
+2018-01-08T00:26:18.258741: step 47100, loss 9.33927, acc 0.757812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-47100
+
+
+Evaluation:
+2018-01-08T00:44:57.255733: step 47200, loss 8.59143, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-47200
+
+
+Evaluation:
+2018-01-08T01:04:05.369553: step 47300, loss 4.63584, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-47300
+
+
+Evaluation:
+2018-01-08T01:22:25.555333: step 47400, loss 11.4805, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-47400
+
+
+Evaluation:
+2018-01-08T01:40:44.681339: step 47500, loss 5.20649, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-47500
+
+
+Evaluation:
+2018-01-08T02:00:00.135746: step 47600, loss 5.26572, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-47600
+
+
+Evaluation:
+2018-01-08T02:18:55.809235: step 47700, loss 6.06032, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-47700
+
+
+Evaluation:
+2018-01-08T02:38:11.008506: step 47800, loss 7.04149, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-47800
+
+51
+
+Evaluation:
+2018-01-08T02:56:40.508817: step 47900, loss 6.63726, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-47900
+
+
+Evaluation:
+2018-01-08T03:16:01.255043: step 48000, loss 5.74732, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-48000
+
+
+Evaluation:
+2018-01-08T03:35:35.646804: step 48100, loss 7.91854, acc 0.765625
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-48100
+
+
+Evaluation:
+2018-01-08T03:55:21.530263: step 48200, loss 5.80592, acc 0.789062
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-48200
+
+
+Evaluation:
+2018-01-08T04:14:39.743043: step 48300, loss 5.24217, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-48300
+
+
+Evaluation:
+2018-01-08T04:34:45.643032: step 48400, loss 4.88114, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-48400
+
+
+Evaluation:
+2018-01-08T04:54:43.394521: step 48500, loss 9.54247, acc 0.796875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-48500
+
+
+Evaluation:
+2018-01-08T05:14:09.879711: step 48600, loss 6.68218, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-48600
+
+
+Evaluation:
+2018-01-08T05:32:45.185574: step 48700, loss 5.066, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-48700
+
+52
+
+Evaluation:
+2018-01-08T05:51:35.594934: step 48800, loss 8.13394, acc 0.796875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-48800
+
+
+Evaluation:
+2018-01-08T06:11:12.256210: step 48900, loss 5.43455, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-48900
+
+
+Evaluation:
+2018-01-08T06:30:32.005393: step 49000, loss 5.06891, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-49000
+
+
+Evaluation:
+2018-01-08T06:50:30.104914: step 49100, loss 5.15446, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-49100
+
+
+Evaluation:
+2018-01-08T07:10:24.918259: step 49200, loss 4.90128, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-49200
+
+
+Evaluation:
+2018-01-08T07:31:13.448671: step 49300, loss 5.9479, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-49300
+
+
+Evaluation:
+2018-01-08T07:51:15.937422: step 49400, loss 5.83946, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-49400
+
+
+Evaluation:
+2018-01-08T08:10:43.200344: step 49500, loss 5.71363, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-49500
+
+
+Evaluation:
+2018-01-08T08:30:52.537478: step 49600, loss 5.76969, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-49600
+
+
+Evaluation:
+2018-01-08T08:51:10.852823: step 49700, loss 5.39999, acc 0.8125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-49700
+
+53
+
+Evaluation:
+2018-01-08T09:10:58.741341: step 49800, loss 5.01538, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-49800
+
+
+Evaluation:
+2018-01-08T09:31:38.604760: step 49900, loss 4.86802, acc 0.828125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-49900
+
+
+Evaluation:
+2018-01-08T09:54:16.198482: step 50000, loss 3.84942, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-50000
+
+
+Evaluation:
+2018-01-08T10:15:56.834289: step 50100, loss 5.42689, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-50100
+
+
+Evaluation:
+2018-01-08T10:43:11.893363: step 50200, loss 4.73106, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-50200
+
+
+Evaluation:
+2018-01-08T11:07:57.051588: step 50300, loss 4.11702, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-50300
+
+
+Evaluation:
+2018-01-08T11:28:53.147023: step 50400, loss 5.81529, acc 0.820312
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-50400
+
+
+Evaluation:
+2018-01-08T11:50:13.198562: step 50500, loss 5.96788, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-50500
+
+
+Evaluation:
+2018-01-08T12:10:19.821851: step 50600, loss 4.34292, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-50600
+
+54
+
+Evaluation:
+2018-01-08T12:30:45.665591: step 50700, loss 6.35706, acc 0.796875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-50700
+
+
+Evaluation:
+2018-01-08T12:52:04.369337: step 50800, loss 5.1451, acc 0.867188
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-50800
+
+
+Evaluation:
+2018-01-08T13:19:35.039056: step 50900, loss 4.80184, acc 0.882812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-50900
+
+
+Evaluation:
+2018-01-08T13:55:27.270873: step 51000, loss 4.99527, acc 0.851562
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-51000
+
+
+Evaluation:
+2018-01-08T14:25:21.359692: step 51100, loss 5.30351, acc 0.859375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-51100
+
+
+Evaluation:
+2018-01-08T14:51:03.785329: step 51200, loss 5.28784, acc 0.835938
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-51200
+
+
+Evaluation:
+2018-01-08T15:17:59.774875: step 51300, loss 4.56342, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-51300
+
+
+Evaluation:
+2018-01-08T15:45:16.599105: step 51400, loss 4.5811, acc 0.882812
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-51400
+
+
+Evaluation:
+2018-01-08T16:12:35.055731: step 51500, loss 4.95499, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-51500
+
+55
+
+Evaluation:
+2018-01-08T16:39:50.925728: step 51600, loss 4.54479, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-51600
+
+
+Evaluation:
+2018-01-08T17:09:43.530188: step 51700, loss 4.3392, acc 0.84375
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-51700
+
+
+Evaluation:
+2018-01-08T17:46:12.139705: step 51800, loss 3.54704, acc 0.875
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-51800
+
+
+Evaluation:
+2018-01-08T18:12:57.816197: step 51900, loss 6.02758, acc 0.78125
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-51900
+
+
+Evaluation:
+2018-01-08T18:29:51.806533: step 52000, loss 80104.6, acc 0.273438
+
+Saved model checkpoint to /home/haixiao.liu/zzy/cnn-text-classification/runs/1515149562/checkpoints/model-52000
+

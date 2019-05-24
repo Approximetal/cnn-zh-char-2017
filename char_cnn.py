@@ -29,11 +29,11 @@ class CharConvNet(object):
         with tf.name_scope("Embedding-Layer"), tf.device('/cpu:0'):
             #Quantization layer
             
-            Q = tf.concat(
+            Q = tf.concat(0,
                           [
                               tf.zeros([1, alphabet_size]), # Zero padding vector for out of alphabet characters
                               tf.one_hot(range(alphabet_size), alphabet_size, 1.0, 0.0) # one-hot vector representation for alphabets
-                           ],0,
+                           ],
                           name='Q')
             
             x = tf.nn.embedding_lookup(Q, self.input_x)

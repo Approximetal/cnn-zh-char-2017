@@ -32,13 +32,13 @@ if __name__ == '__main__':
     num_batches_per_epoch = int(train_data.getLength() / config.batch_size) + 1
     num_batch_dev = dev_data.getLength()
     print "Loaded"
-
+    print tf.__version__
     print "Training ===>"
 
     with tf.Graph().as_default():
         session_conf = tf.ConfigProto(allow_soft_placement = True,
                                       log_device_placement = False)
-
+                                      
         sess = tf.Session(config = session_conf)
 
         with sess.as_default():
@@ -78,12 +78,12 @@ if __name__ == '__main__':
             grad_summaries = []
             for g, v in grads_and_vars:
                 if g is not None:
-                    grad_hist_summary = tf.summary.histogram("{}/grad/hist".format(v.name), g)
-                    sparsity_summary = tf.summary.scalar("{}/grad/sparsity".format(v.name), tf.nn.zero_fraction(g))
+                    grad_hist_summary = tf.histogram_summary("{}/grad/hist".format(v.name), g)
+                    sparsity_summary = tf.scalar_summary("{}/grad/sparsity".format(v.name), tf.nn.zero_fraction(g))
                     grad_summaries.append(grad_hist_summary)
                     grad_summaries.append(sparsity_summary)
                     
-            grad_summaries_merged = tf.summary.merge(grad_summaries)
+            grad_summaries_merged = tf.merge_summary(grad_summaries)
 
             # Output directory for models and summaries
             timestamp = str(int(time.time()))
@@ -91,18 +91,18 @@ if __name__ == '__main__':
             print("Writing to {}\n".format(out_dir))
 
             # Summaries for loss and accuracy
-            loss_summary = tf.summary.scalar("loss", char_cnn.loss)
-            acc_summary = tf.summary.scalar("accuracy", char_cnn.accuracy)
+            loss_summary = tf.scalar_summary("loss", char_cnn.loss)
+            acc_summary = tf.scalar_summary("accuracy", char_cnn.accuracy)
 
             # Train Summaries
-            train_summary_op = tf.summary.merge([loss_summary, acc_summary, grad_summaries_merged])
+            train_summary_op = tf.merge_summary([loss_summary, acc_summary, grad_summaries_merged])
             train_summary_dir = os.path.join(out_dir, "summaries", "train")
-            train_summary_writer = tf.summary.FileWriter(train_summary_dir, sess.graph_def)
+            train_summary_writer = tf.train.SummaryWriter(train_summary_dir, sess.graph)
 
             # Dev summaries
-            dev_summary_op = tf.summary.merge([loss_summary, acc_summary])
+            dev_summary_op = tf.merge_summary([loss_summary, acc_summary])
             dev_summary_dir = os.path.join(out_dir, "summaries", "dev")
-            dev_summary_writer = tf.summary.FileWriter(dev_summary_dir, sess.graph_def)
+            dev_summary_writer = tf.train.SummaryWriter(dev_summary_dir, sess.graph)
 
             # Checkpoint directory. Tensorflow assumes this directory already exists so we need to create it
             checkpoint_dir = os.path.abspath(os.path.join(out_dir, "checkpoints"))
@@ -110,8 +110,8 @@ if __name__ == '__main__':
             if not os.path.exists(checkpoint_dir):
                 os.makedirs(checkpoint_dir)
             saver = tf.train.Saver(tf.all_variables())
-
-            sess.run(tf.global_variables_initializer())
+            init = tf.initialize_all_variables()
+            sess.run(init)
             
                                      
             def train_step(x_batch, y_batch):
@@ -132,7 +132,7 @@ if __name__ == '__main__':
                     feed_dict)
                 
                 time_str = datetime.datetime.now().isoformat()
-                print("{}: step {}, loss {:g}, acc {:g}".format(time_str, step, loss, accuracy))
+                #print("{}: step {}, loss {:g}, acc {:g}".format(time_str, step, loss, accuracy))
                 train_summary_writer.add_summary(summaries, step)
 
             def dev_step(x_batch, y_batch, writer=None):
